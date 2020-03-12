@@ -18,7 +18,6 @@ public class Categoria implements Serializable{
 	
 	
 	
-	
 	public Categoria() {
 		
 	}
@@ -30,6 +29,7 @@ public class Categoria implements Serializable{
 		super();
 		this.id = id;
 		this.nome = nome;
+		
 	}
 
 
@@ -90,5 +90,10 @@ public class Categoria implements Serializable{
 			return false;
 		return true;
 	}
+
+
+
+
+	
 	
 }
